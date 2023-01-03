@@ -1,7 +1,19 @@
 # Homer
-Run a specified command when the Home button is clicked, optionally preventing the default action. Other than a quick icon in Sketch, this is a kludged-together tweak specifically targeting jailbroken devices running iOS 7 (iPhone 4 and related devices).
+Homer is a jailbreak tweak for iOS 7 that runs a custom command when the Home button is clicked, optionally preventing the default behavior of closing the app and returning to the home screen.
 
-## To build
-1. Install Theos on your Mac.
+> **Warning** • This is a specialized tweak that can make it hard to use your phone.
+
+## To build and use
+1. Install [Theos](https://theos.dev/) on your computer.
 1. Clone the repo locally.
 1. Run `make do`, which builds the package and attempts to install on your iOS device (if you’ve [set the device IP address first](https://theos.dev/docs/commands)).
+
+This tweak has only been tested on a jailbroken iPhone 4 running iOS 7. It works alongside [Activator](http://rpetri.ch/cydia/activator/).
+
+## Usage
+On your iPhone, go to Settings ‣ Homer. Respring after making any changes.
+
+If you switch on `Prevent Default Behavior`, the iPhone Home button does not background the current app and return to the SpringBoard (or any single-click button action). This is deliberate, so I used Activator to show the multitasking view upon completing some other gesture so I can go back home and switch to other apps when necessary.
+
+## It’s 2023 why are you doing this
+I’m in the process of upgrading my [smarthome setup](https://johnmatu.la/projects/smarthome/) with my favorite device to show buttons,  and I wanted to take over all of iPhone’s buttons for my own needs. I really wanted to get the physical Home button under my control, but Activator understandably restricts the effects of tweaks on that button. After discovering how to [bypass this restriction](https://github.com/rpetrich/libactivator/blob/headers/LAListener.h#L18) and really start breaking stuff, I kludged this tweak together by reviewing similar tweaks ([1](http://cydia.saurik.com/package/us.hannahpappah.incarcerapp/), [2](https://www.reddit.com/r/jailbreak/comments/3qm3nh/release_buttondisabler_disable_your_physical/)) and pretending to be an Objective-C developer for a day.
