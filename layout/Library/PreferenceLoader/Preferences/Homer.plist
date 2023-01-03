@@ -19,7 +19,7 @@ items = (
 	},
 	{
 		cell = PSGroupCell;
-    footerText = "Switch on to prevent the Home button returning to the Springboard. This will make it difficult or impossible to switch apps—consider setting up alternative actions in Activator.";
+    footerText = "This makes it hard to switch apps and go home. Keep disabled or consider setting up alternative actions in Activator.";
 	},
   {
     key = preventDefault;
@@ -29,6 +29,6 @@ items = (
   },
 	{
 		cell = PSGroupCell;
-    footerText = "Respring for changes to take effect. Hacked together in October 2022 by John Matula.";
+    footerText = "Respring for changes to take effect.";
 	}
 );
