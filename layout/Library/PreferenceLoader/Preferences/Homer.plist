@@ -1,0 +1,34 @@
+entry = {
+	cell = PSLinkCell;
+	icon = "Homer.png";
+	label = "Homer";
+};
+title = "Homer";
+items = (
+	{
+		cell = PSGroupCell;
+		label = "Command";
+    footerText = "Command is unsafely run via system().";
+
+	},
+	{
+    key = commandToRun;
+    defaults = com.johnmatula.homerrr;
+		cell = PSEditTextCell;
+    noAutoCorrect = true;
+	},
+	{
+		cell = PSGroupCell;
+    footerText = "Switch on to prevent the Home button returning to the Springboard. This will make it difficult or impossible to switch apps—consider setting up alternative actions in Activator.";
+	},
+  {
+    key = preventDefault;
+    defaults = com.johnmatula.homerrr;
+    cell = PSSwitchCell;
+    label = "Prevent Default Action";
+  },
+	{
+		cell = PSGroupCell;
+    footerText = "Respring for changes to take effect. Hacked together in October 2022 by John Matula.";
+	}
+);

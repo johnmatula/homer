@@ -1,0 +1,5 @@
+{
+    title = "Homer";
+    description = "Run command and prevent default behavior";
+    "compatible-modes" = ("springboard", "application", "lockscreen");
+}

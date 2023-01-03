@@ -1,0 +1,9 @@
+Package: com.johnmatula.homerrr
+Name: Homer
+Depends: libactivator
+Version: 1.2.1
+Architecture: iphoneos-arm
+Description: Custom handling of Home button.
+Maintainer: John Matula
+Author: John Matula
+Section: Tweaks
