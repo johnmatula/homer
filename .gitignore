@@ -1,3 +1,4 @@
-.theos/*
-node_modules/*
+.theos
+node_modules
+packages
 packages/*
