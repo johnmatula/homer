@@ -15,5 +15,5 @@ On your iPhone, go to Settings ‣ Homer. Respring after making any changes.
 
 When `Prevent Default Action` is on, the iPhone Home button does not background the current app and return to the SpringBoard. This is deliberate, so I used Activator to show the multitasking view upon completing some other gesture so I can go back home and switch to other apps when necessary.
 
-## It’s 2023 why are you doing this
+## It’s 2025 why are you doing this
 I’ve been upgrading my [smarthome setup](https://johnmatu.la/projects/smarthome/) lights and controls lately. The web UI still runs on an iPhone 4, and for this latest iteration, I wanted to take over all of iPhone’s buttons for my own needs. Specifically, I really wanted to get the physical Home button under my control, but any customization I could set up in Activator was understandably restricted. After discovering how to [bypass this restriction](https://github.com/rpetrich/libactivator/blob/headers/LAListener.h#L18) and really start breaking the iOS experience, I kludged this little tweak together by reviewing similar tweaks that were compatible with iOS 7 ([1](http://cydia.saurik.com/package/us.hannahpappah.incarcerapp/), [2](https://www.reddit.com/r/jailbreak/comments/3qm3nh/release_buttondisabler_disable_your_physical/)).
